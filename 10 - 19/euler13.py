@@ -107,7 +107,7 @@
 # 	but there is probably an easier way to do that
 
 
-with open("numbers.txt", "r") as txt:
+with open("euler13Input.txt", "r") as txt:
 	numbersInScope = []
 	for line in txt:
 		numbersInScope.append(int(line[0:20]))
