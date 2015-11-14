@@ -33,6 +33,7 @@ def firstFibTermWithXDigits(numDigits):
 		first = fib
 		second = first - second
 		term += 1
-		print fib
 
 	return term
+
+print "our answer is: " + str(firstFibTermWithXDigits(1000))
